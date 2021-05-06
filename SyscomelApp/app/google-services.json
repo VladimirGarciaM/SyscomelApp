@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "883834561809",
+    "project_id": "syscomelapp-f7a78",
+    "storage_bucket": "syscomelapp-f7a78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883834561809:android:3319e3a5930974e6d858b0",
+        "android_client_info": {
+          "package_name": "com.example.syscomelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883834561809-3d53ccb1q204vrs7rbr2lg7k591u29i4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syscomelapp",
+            "certificate_hash": "c115d645df3d188ada23deb98bfdd4759ca0da56"
+          }
+        },
+        {
+          "client_id": "883834561809-2prh67mcbtbk190hi7gba235c96qcgad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmHNMVeIEGIGRla5dCt_U3aWHpuOLAib8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883834561809-2prh67mcbtbk190hi7gba235c96qcgad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

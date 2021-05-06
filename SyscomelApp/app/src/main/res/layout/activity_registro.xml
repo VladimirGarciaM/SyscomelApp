@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar su usuario"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="30sp" /><![CDATA[
+
+    android:icon="@drawable/logotipo"
+        app:showAsAction="always"/>
+    ]]>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logotipo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Crea tu cuenta:"
+        android:textColor="#150101"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/correoelectronico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Correo electronico" />
+
+    <EditText
+        android:id="@+id/empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Empresa" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Direccion" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Telefono" />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contraseña" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acepta los terminos y condiciones" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RegistroCliente"
+        android:text="Registrarse" />
+
+</LinearLayout>
